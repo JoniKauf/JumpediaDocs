@@ -1,0 +1,65 @@
+/* Palette: https://colorhunt.co/palette/17153b2e236c433d8bc8acd6 */
+
+@font-face {
+  font-family: FiraCode;
+  src: url(FiraCode-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: FiraCode;
+}
+
+h2 {
+    color: rgb(200, 172, 214);
+}
+
+.base-container {
+    padding: 10px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#header-layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 7%;
+    background-color: rgb(23, 21, 59);
+    justify-content: center;
+    align-items: center;
+}
+
+#sidebar-layout {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar {
+    display: flex;
+    width: auto;
+    background-color: rgb(46, 35, 108);
+    width: 15%;
+}
+
+#body {
+    display: flex;
+    background-color: rgb(67, 61, 139);
+    width: 100%;
+    height: 100%;
+}
