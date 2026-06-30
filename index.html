@@ -1,16 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Docs</title>
-
+    <meta charset="utf-8">
+    <title>Docs</title>
     <link rel="stylesheet" href="style.css">
-
     <script src="https://cdn.jsdelivr.net/npm/commonmark/dist/commonmark.min.js"></script>
     <script src="script.js" defer></script>
 </head>
+
 <body>
-    <main id="content">Loading...</main>
+    <div class="layout">
+		<aside id="sidebar">
+			<ul>
+				<li data-page="index">Home</li>
+				<li data-page="overview">
+					Overview
+					<ul>
+						<li data-page="getting-started/installation">Installation</li>
+						<li data-page="getting-started/first-steps">First Steps</li>
+					</ul>
+				</li>
+
+				<li data-page="commands">
+					Commands
+					<ul>
+						<li data-page="commands/overview">Overview</li>
+						<li data-page="commands/movement">Movement</li>
+					</ul>
+				</li>
+
+				<li data-page="faq">FAQ</li>
+			</ul>
+		</aside>
+
+		<main id="content">
+			Loading...
+			
+			<div id="page-nav"></div>
+		</main>
+    </div>
 </body>
 </html>
