@@ -26,7 +26,7 @@ function loadPage(page) {
 /* -------------------- ROUTING -------------------- */
 
 function getPage() {
-    return location.hash.slice(1) || "home";
+    return location.hash.slice(1) || "index";
 }
 
 function route() {
